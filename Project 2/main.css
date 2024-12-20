@@ -1,0 +1,232 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #faf7f2;
+    font-family: 'Playfair Display', serif;
+    color: #2c2c2c;
+}
+
+.navbar {
+    background: #8e664c; /* Rich brown */
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: 500;
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #ffddc1; /* Soft peach */
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header {
+    background-image: url('restaurant.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.description h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.description p {
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #eaeaea;
+}
+
+.description button {
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.description button:hover {
+    background: #ffddc1;
+    color: #2c2c2c;
+    border-color: #ffddc1;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.features .feature-item {
+    flex: 1 1 calc(33.333% - 1rem); /* Ensures 3 items per row */
+    max-width: calc(33.333% - 1rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features .feature-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.features img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.features .feature-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #8e664c;
+    text-transform: uppercase;
+}
+
+.features p {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.background {
+    background: #f6efe6;
+    padding: 4em 0;
+}
+
+.team .card-columns {
+    column-count: 3;
+    column-gap: 2rem;
+}
+
+.team .card {
+    border: none;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.team .card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #8e664c;
+}
+
+.team .card p {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    color: #555;
+}
+
+.page-footer {
+    background-color: #2c2c2c;
+    color: #eaeaea;
+    padding: 40px 0 20px;
+    text-align: center;
+}
+
+.footer-copyright {
+    color: #aaa;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.modal-content {
+    border-radius: 10px;
+    padding: 2rem;
+    background: #fffbea;
+}
+
+.modal-header {
+    border-bottom: none;
+    text-align: center;
+}
+
+.modal-header h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #8e664c;
+}
+
+.modal-body p {
+    font-family: 'Lora', serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.modal-body .form-control {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.modal-body .btn {
+    background-color: #8e664c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.modal-body .btn:hover {
+    background-color: #ffddc1;
+    color: #2c2c2c;
+}
